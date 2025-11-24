@@ -1,6 +1,6 @@
 # Notebooks Overview
 
-This folder hosts the Task 1 exploratory notebooks. Each notebook is self-contained (no dependency on missing `src` helpers) so you can run them directly after installing the requirements.
+This folder hosts the Task 1 exploratory notebooks plus the Task 2 quantitative analysis workbook. Each notebook is self-contained (no dependency on missing `src` helpers) so you can run them directly after installing the requirements.
 
 | Notebook | Purpose | Inputs |
 | --- | --- | --- |
@@ -8,6 +8,7 @@ This folder hosts the Task 1 exploratory notebooks. Each notebook is self-contai
 | `02_sentiment_analysis.ipynb` | TextBlob/VADER scoring + aggregated sentiment tables (daily + publisher) | `data/raw_analyst_ratings.csv` |
 | `03_technical_indicators.ipynb` | Rolling SMA/RSI/MACD indicator calculations with pandas | `data/AAPL.csv` (swap for `AMZN`, `GOOG`, `NVDA`, etc.) |
 | `04_correlation_analysis.ipynb` | Joins aggregated sentiment with price returns and reports Pearson correlation | `data/raw_analyst_ratings.csv`, `data/AAPL.csv` |
+| `05_quant_analysis.ipynb` | TA-Lib indicators + PyNance risk/return metrics with multi-panel plots | `data/AAPL.csv` (swap for other tickers) |
 
 ## Usage
 
