@@ -5,6 +5,8 @@ from typing import Optional
 import pandas as pd
 
 def score_headlines_df(df: pd.DataFrame, text_col: str = 'headline', method: str = 'textblob') -> pd.DataFrame:
+    """Annotate a DataFrame with sentiment scores using TextBlob or VADER."""
+
     df = df.copy()
     if method == 'vader':
         try:
